@@ -19,7 +19,10 @@ class MyApp extends StatelessWidget {
         ),
         body: SafeArea(
           child: Center(
-            child: Column(children: [Text('Hello World'), Text('Hello')]),
+            child: Container(
+              color: Colors.tealAccent,
+              child: Column(children: [Text('Hello World'), Text('Hello')]),
+            ),
           ),
         ),
       ),
